@@ -1,20 +1,39 @@
 [
    {
+      "id": 1,
+      "name": "Cafetera Moulinex Dolce Gusto Edited",
+      "price": "1000",
+      "discount": "50",
+      "category": "visited",
+      "description": "Cafetera Dolce Gusto Lumio. La cafetera Dolce Gusto Lumio es de variedad automática que ha llegado con un diseño radical al que nos tenía acostumbrados Dolce Gusto.En este post te contamos todo lo que necesitas saber sobre ella, desde sus características técnicas hasta la calidad de las cápsulas o price.",
+      "image": "img-cafetera-moulinex.jpg"
+   },
+   {
+      "id": 2,
+      "name": "Macbook Pro 2022",
+      "price": 500,
+      "discount": 3,
+      "category": "in-sale",
+      "description": "Macbook Pro 2019 Mpxq2ll/a Intel Core i5 2.3 Ghz 8gb RAM 128gb SSD Pantalla 13.3\" Retina Apple Nueva Original. Importada de USA. Se entrega con la factura de compra para contar con la garantía del fabricante",
+      "image": "img-macbook-pro-2019.jpg"
+   },
+   {
       "id": 3,
-      "name": "Samsung Galaxy S51",
-      "description": "Experiencia visual excepcional. Mirá tus series y películas favoritas con la mejor definición.Tendrás colores brillantes y detalles precisos en todos tus contenidos.Disfrutá aún más del mejor entretenimiento gracias a su vasta pantalla y ángulos de visión amplios.",
+      "name": "Samsung Galaxy S10",
       "price": 72999,
       "discount": 25,
-      "image": "img-samsung-galaxy-s10.jpg",
-      "category": "in-sale"
+      "category": "in-sale",
+      "description": "Experiencia visual excepcional. Mirá tus series y películas favoritas con la mejor definición.Tendrás colores brillantes y detalles precisos en todos tus contenidos.Disfrutá aún más del mejor entretenimiento gracias a su vasta pantalla y ángulos de visión amplios.",
+      "image": "img-samsung-galaxy-s10.jpg"
    },
    {
       "id": 4,
       "name": "Heladera no frost Whirlpool WRM45A",
       "description": "Disfrutá de la frescura de tus alimentos y almacenalos de manera práctica y cómoda en tu heladera Whirlpool, la protagonista de tu cocina. Su sistema no frost evita la generación de escarcha y te permitirá conservar el sabor y las propiedades nutritivas de los productos.A su vez, su freezer cuenta con una capacidad de 86 litros, que facilitará la distribución y el orden de tus congelados para que no te preocupes por la falta de espacio.",
       "price": 47900,
-      "discount": 55,
-      "image": "img-heladera-whirpool.jpg"
+      "discount": 10,
+      "image": "img-heladera-whirpool.jpg",
+      "category": "in-sale"
    },
    {
       "id": 5,
@@ -53,6 +72,33 @@
       "category": "in-sale"
    },
    {
+      "id": 10,
+      "name": "Mouse Inalámbrico Logitech M280",
+      "description": "Uso más cómodo para la mano derecha gracias a la forma contorneada con recubrimiento de goma blanda. Duración de las pilas hasta 18 meses, gracias al diseño para ahorrar energía.El M280 entra automáticamente en estado de suspensión cuando no se está usando.",
+      "price": 1200,
+      "discount": 10,
+      "image": "img-mouse-logitech.jpg",
+      "category": "visited"
+   },
+   {
+      "id": 11,
+      "name": "Parlante Inalámbrico Bose Soundtouch 10",
+      "description": "Parlante Inalámbrico Bose Soundtouch 10. SoundTouch®.La manera más sencilla de reproducir música en todo su hogar de forma inalámbrica. Características. » Marca: Bose. » Modelo: SoundTouch. » Color: Negro",
+      "price": 29990,
+      "discount": 12,
+      "image": "img-parlante-bose.jpg",
+      "category": "visited"
+   },
+   {
+      "id": 12,
+      "name": "Home Theatre Sony Bdv-e4100",
+      "description": "El sonido Surround de 5.1 canales y 1000 W proporciona un audio de verdadero impacto en los efectos especiales de películas y efectos de sonido de música y deportes. Con la tecnología Near Field Communication(NFC) podés disfrutar de Sonido One- Touch para reproducir música de forma instantánea",
+      "price": 32990,
+      "discount": 0,
+      "image": "img-home-theater-sony.jpg",
+      "category": "visited"
+   },
+   {
       "id": 13,
       "name": "Smart TV Samsung 4K 50",
       "description": "Con el Smart TV Samsung UN50MU6100, viví una nueva experiencia visual con la resolución 4K, que te presentará imágenes con gran detalle y de alta calidad. Ahora todo lo que veas cobrará vida con brillo y colores más reales. Gracias a su tamaño de 50\", podrás transformar tu espacio en una sala de cine y transportarte a donde quieras.",
@@ -80,21 +126,38 @@
       "image": "img-parlante-sony.jpg"
    },
    {
-      "id": 18,
-      "name": "",
-      "description": "",
-      "price": 0,
-      "discount": 0,
-      "image": null,
-      "category": ""
+      "id": 17,
+      "name": "PRUEBA SIN IMAGEN",
+      "description": "adasdasdasd awd sdasdas d awd asdasd",
+      "price": 22222,
+      "discount": 33,
+      "image": "notImage.jpg"
    },
    {
-      "id": 19,
-      "name": "Maximiliano",
-      "description": "",
-      "price": 0,
-      "discount": 0,
-      "image": null,
-      "category": ""
+      "id": 20,
+      "name": "Piano de cola",
+      "description": "ojnsdcsdcsdc dcsdcwsdcsd wsdcvsdvsdv dcsadcsadc",
+      "price": 15000150,
+      "discount": 2,
+      "image": "1676645252342_img_.png",
+      "category": "in-sale"
+   },
+   {
+      "id": 21,
+      "name": "Amplificador alta gamma",
+      "description": "amplificador para musicos de verdad, no apto para reggaetón",
+      "price": 800500,
+      "discount": 10,
+      "image": "1676645356791_img_.png",
+      "category": "in-sale"
+   },
+   {
+      "id": 22,
+      "name": "Microfono anti-reggaetón",
+      "description": "sdcsdcsdc sddcsdcsdc sdcsdcsdc sdcsdcsdc",
+      "price": 150200,
+      "discount": 10,
+      "image": "1676645404967_img_.png",
+      "category": "in-sale"
    }
 ]

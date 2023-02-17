@@ -37,20 +37,20 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 	
 	// Create -  Method to store
 	store: (req, res) => {
-		const {id, name, price, discount, category, description} = req.body;
+		const {id, name, price, discount, category, description, image} = req.body;
 			const newProduct ={
 		id: products[products.length - 1].id +1,
 		name: name.trim(),
 		description: description.trim(),
 		price: +price,
 		discount: +discount,
-		image: null,
-		category	
+		image: req.file ? req.file.filename : "notImage.jpg",
+		category
 		
 	};
 	products.push(newProduct);
 	fs.writeFileSync(productsFilePath, JSON.stringify(products, null, 3), "utf-8");
-		return res.redirect("/")
+		return res.redirect("/products")
 	},
 	
 	// Update - Form to edit
